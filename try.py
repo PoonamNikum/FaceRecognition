@@ -2,12 +2,14 @@ import cv2
 import sys
 
 print("started")
-# img = cv2.imread('/Users/gitesh/Desktop/Python Programming/FaceRecognition/LinkedIn.jpeg')
-# if img is None:
-#    sys.exit("Could not read the image.")
-# cv2.imshow('Beba', img)
-# cv2.waitKey(0)
-# cap = cv2.VideoCapture('/Users/gitesh/Desktop/Python Programming/FaceRecognition/Teasar.mpg')
+"""
+img = cv2.imread('/Users/gitesh/Desktop/Python Programming/FaceRecognition/LinkedIn.jpeg')
+if img is None:
+    sys.exit("Could not read the image.")
+cv2.imshow('Beba', img)
+cv2.waitKey(0)
+cap = cv2.VideoCapture('/Users/gitesh/Desktop/Python Programming/FaceRecognition/Teasar.mpg')
+"""
 cap = cv2.VideoCapture(0)
 if cap.isOpened():
     print("not open")
